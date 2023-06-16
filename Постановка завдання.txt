@@ -1,0 +1,17 @@
+Є він-код машини на листівках у паперовому вигляді. Програма по їх розпізнаванню вже написана.
+Задача полягає у тому, щоб максимально точно ідентифікувати, що саме там зображено.
+Подані у завданні зображення можна знайти у папці test_data.
+
+Список файлів:
+model - binary file in most optimal format that stores model
+training script - python file that prepare, train and save model.
+test inference script - python file that takes one CLI argument that is path to
+directory with image samples and print output to console in CSV format.
+Program must find all images in directory in common formats like PNG or JPG
+(JPEG). Exact input image size can be different. The output format is a single
+text line for every image in input directory “[character ASCII index in decimal
+format], [POSIX path to image sample]”. The number of output lines must be
+equal to images in input folder.
+documentation in .md format that describes the used data, methods and ideas,
+also reports accuracy. Don’t forget to add the usage instruction and author
+information.
